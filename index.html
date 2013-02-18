@@ -2,17 +2,11 @@
 <html>
   <head>
     <title>Example html page</title>
-    <style>
-      h1 { color: red; }
-      p { background-color: #839302; }
-      div#lists { background-color: yellow; }
-      .special {color: pink;}
-
-    </style>
-
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
   </head>
 
   <body>
+    <div class='container'>
     <h1 class="special">Example html page (this is an h1 heading)</h1>
 
     <h2>Headings and paragraphs (this is an h2 heading)</h2>
@@ -56,10 +50,14 @@
     <div id="tables">
       <h2>Tables</h2>
       <p>Behold. A table:</p>
-      <table>
+      <table class='table'>
         <tr>
           <th>Name</th>
           <th>College</th>
+        </tr>
+        <tr>
+          <td>Tom</td>
+          <td>Oriel</td>
         </tr>
         <tr>
           <td>Tom</td>
@@ -88,6 +86,6 @@
       />
 
     </div>
-
+    </div>
   </body>
 </html>
